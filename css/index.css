@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0%;
+}
+body{
+    background-color: #7C4032;
+
+}
+.tela0{
+    margin: 0px;
+    height: 100vh;
+    padding: 0px;
+}
+
+.circulo{
+    width: 100%;
+    height: 100vh;
+    /* transform: skew(20deg); */
+    background-color: #FEF4DE;
+    border-radius: 0px 350px 0px 350px;
+    background-image: url("../img/fundo.png");
+
+}
+
+#logosquare h1{
+    position: absolute;
+    display: flex;
+
+}
+.headername{
+    display: flex;
+    justify-content: left;
+    padding-top: 10%;
+    font-family: 'Poppins';
+    font-weight: 900;
+    font-style: normal;
+    font-size: clamp(4rem, 0.5vw, 1rem); 
+    color: #7C4032;
+    margin-left: 15%;
+}
+
+.headersub{
+    font-style: normal;
+    display: flex;
+    justify-content: left;
+    padding-top: 0%;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-style: normal;
+    font-size: clamp(3rem, 0.1vw, 0.1rem); 
+    color: #7C4032;
+    margin-left: 15%;
+    letter-spacing: 0.1em;
+
+}
+
+.text1{
+    display: flex;
+    justify-content: left;
+    padding-top: 2%;
+    width: 41%;
+    margin-left: 15%;
+}
+.text1 h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 100%;
+    color: #7C4032;
+}
+
+.circulo img{
+    display: flex;
+    margin-left: 57%;
+    width: 30%;
+    margin-top: -300px;
+}
+
+.help {
+    background-color: #F3CE5E;
+    border: none;
+    color:#7C4032;
+    padding: 20px 30px 20px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 35%;
+    font-family: 'Poppins';
+    font-weight: 700;
+    margin-left: 15%;
+    margin-top: 0%;
+
+  }
+
+.help:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+    inset 2px 2px 3px rgba(0, 0, 0, .6);
+
+}
+.help:hover {
+    background-color:#7C4032;
+    color:#F3CE5E;
+}
+
+.about {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100%;
+    color: #7C4032;
+    text-decoration: none;
+    margin-left: 3%;
+}
+
