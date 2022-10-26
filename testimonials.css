@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+body {
+    background-color: #FEF4DE;
+    background-image: url("Mask\ Group.svg");
+}
+#pageName{
+    color: #7C4032;
+    font-size: 64px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    margin-top: 1%;
+    margin-bottom: 3%;
+}
+.center {
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+#center-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card-item {
+    background-color: white;
+    border-width: 2px;
+    border-color: #7C4032;
+    border-style: solid;
+    border-radius: 30px;
+    font-family: 'Poppins';
+    font-style: normal;
+    padding-left: 5%;
+    padding-bottom: 1%;
+    padding-right: 0.5%;
+    height: 1%;
+}
+.card-item p {
+    font-weight: 400;
+    font-size: 14px;
+}
+.card-item h4 {
+    font-weight: 900;
+    color: #7C4032;
+    font-size: 16px;
+}
+.card-group{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 40px;
+}
+.help-me {
+    display: flex;
+    justify-content: center;
+    background-color: #F3CE5E;
+    text-decoration: none;
+    border: none;
+    border-radius: 57px;
+    width: 210px;
+    height: 66px;
+    align-items: center;
+
+}
+.help-me p {
+    color:#663128;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Poppins';
+    font-weight: 700;
+}
+.down-gap{
+    margin-bottom: 50px;
+}
